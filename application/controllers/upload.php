@@ -3,7 +3,7 @@
  {
      function __construct(){
          parent:: __construct();
-         $this->load->helper(array('form','url'));
+         $this->load->helper(array('form','url'));//memanggil helper form dan url
          
      }
 
