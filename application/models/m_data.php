@@ -25,5 +25,14 @@
          $this->db->update($table, $data);
   
      }
+
+     function data($number,$offset){ //pagination
+         return $query=$this->db->get('user',$number,$offset)->result();//ambil data tabel user dari $number(jumlah per halaman) dan ofset(dari data ke-...)
+     }
+
+     function jumlah_data(){//pagination
+         return $this->db->get('user')->num_rows();//ambil seluruh data dan hitung barisnya
+         
+     }
  } 
 ?>
