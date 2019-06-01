@@ -1,2 +1,7 @@
-# rental
-ini adalah repo aplikasi rental mobil menggunakan codeigniter
+CodeIgniter
+ini adalah repo pembelajaran CodeIgniter
+
+->dasar CodeIgniter
+->bootstrap pada Codeigniter
+->mengenal URI Segment
+->dasar CRUD
